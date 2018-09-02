@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+	<script src="js/castapp.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+</head>
+<body>
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item mui-active" href="home.html">
+			<span class="mui-icon iconfont icon-xiecheng"></span>
+			<span class="mui-tab-label">携程</span>
+		</a>
+		<a class="mui-tab-item" href="route.html">
+			<span class="mui-icon iconfont icon-kecheng"></span>
+			<span class="mui-tab-label">行程</span>
+		</a>
+		<a class="mui-tab-item" href="service.html">
+			<span class="mui-icon iconfont icon-kefu "></span>
+			<span class="mui-tab-label">客服</span>
+		</a>
+		<a class="mui-tab-item" href="my.html">
+			<span class="mui-icon iconfont icon-wo"></span>
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>
+	<script type="text/javascript" charset="utf-8">
+		ca.init();
+		var pathArray = ['home.html','route.html','service.html','my.html'];
+		castapp.tabBar(pathArray);
+		
+	</script>
+</body>
+</html>

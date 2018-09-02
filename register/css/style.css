@@ -1,0 +1,270 @@
+p{
+	margin: 0;
+}
+.public-color{
+	background-color: rgba(240,39,140,0);
+}
+.public-color a,.public-color h1{
+	color: #fff;
+}
+.mui-title input{
+	height: 28px;
+	border: 0px;
+	font-size: 13px;
+	color: #000;
+	background-color: #e4e4e4;
+}
+.mui-slider-item a img{
+	height: 200px;
+}
+/* <!-- 旅行，酒店，机票等列表 --> */
+.travel{
+	margin-bottom: 3px;
+	height: 140px;
+	overflow: hidden;
+}
+.travel-l,.travel-r{
+	float: left;
+	width: 33.33%;
+	height: 100%;
+}
+.travel-l,.travel-l p{
+	text-align: center;
+	color: #fff;
+}
+.travel-l p{
+	padding: 30px 0 4px;
+}
+.travel-r-t{
+	height: 50%;
+	line-height: 70px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+.no-border{
+	border-bottom: 0px;
+}
+.border-left{
+	border-left: 1px solid #FC9720;
+}
+.hotel{
+	background-color: #fd5064;
+}
+.hotel .icon-jiudian, 
+.ticket .icon-feiji2,
+.trip .icon-lvyou{
+	font-size: 40px;
+}
+.ticket{
+	background-color: #3D98FF;
+}
+.trip{
+	background-color: #4FC72F ;
+}
+.scenery{
+	background-color: #FC9720;
+}
+/* 12个九宫格列表 */
+.mui-row{
+	background-color: #fff;
+}
+.mui-col-xs-3{
+	padding: 7px 0;
+	text-align: center;
+	border-right: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+}
+.mui-col-xs-3 p{
+	margin: 0px;
+	font-size: 13px;
+}
+.mui-col-xs-3 span{
+	font-size: 20px;
+}
+.span-yi{
+	color: #29E8D4;
+}
+.span-er{
+	color: #FF8328;
+}
+.span-san{
+	color: #3D98FF;
+}
+/* 广告 */
+.advertise{
+	margin-top: 10px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.ad-text{
+	float: left;
+	padding: 7px 5px 3px;
+	color: #E85D31;
+	font-weight: bold;
+}
+.hongbao{
+	float: right;
+	padding: 7px 5px 3px;
+}
+.hb-text{
+	vertical-align: top;
+}
+.hb-arrow{
+	position: relative;
+	top: -3px;
+}
+.bali{
+	width: 100%;
+	height: 120px;
+	display: block;
+}
+.bali-text{
+	padding: 2px 8px;
+	font-size: 13px;
+	color: #000;
+}
+.bali-price{
+	padding: 0 5px;
+	color: #ff7800;
+}
+.bali-save{
+	display: inline-block;
+	padding: 0 6px;
+	font-size: 10px;
+	border-radius: 10px;
+	background: #ff7800;
+	color: #fff;
+	vertical-align: top;
+}
+.qk-border-b{
+	border-bottom: 1px solid #EFEFF4;
+}
+.qiankuan-pad{
+	padding: 15px 10px 12px;
+	font-size: 13px;
+}
+.qiankuan-img{
+	padding-top: 15px;
+	width: 50px;
+	height: 50px;
+}
+.qk-img,.qk-item{
+	text-align: center;
+}
+.qk-border-r{
+	border-right: 1px solid #EFEFF4;
+}
+
+
+
+/* 行程 */
+.xc-head{
+	background: #fff;
+}
+.xc-head img{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.xc-head .user{
+	padding: 15px 5px;
+	color: #888;
+	font-size: 15px;
+}
+.xc-head .infor{
+	color: #999;
+}
+.start-xc{
+	background-color: #fff;
+	padding: 40px 0;
+	text-align: center;
+}
+.start-xc img{
+	width: 120px;
+	height: 120px;
+}
+.start-xc h4{
+	margin: 10px 0;
+	color: #9F9F9F;
+	font-size: 14px;
+}
+.start-xc p{
+	color: #F69C27;
+	font-weight: 700;
+	font-size: 18px;
+}
+.mui-bar-nav {
+    top: 0;
+    -webkit-box-shadow: 0 0px 0px #ccc;
+    box-shadow: 0 0px 0px #ccc;
+}
+
+/* 文章阅读 */
+.xc-artical{
+	padding: 15px 0 10px 10px;
+	background: #fff;
+	border-top: 1px solid #F0F0F0;
+}
+.xc-read-con h4{
+	line-height: 20px;
+}
+.xc-read-con p{
+	font-size: 13px;
+}
+.xc-read-con img{
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 80px;
+}
+.xc-read{
+	padding: 15px 10px 5px;
+	overflow: hidden;
+	font-size: 13px;
+}
+.xc-read .mui-pull-left{
+	color: #83e4c4;
+}
+.xc-read .mui-pull-right{
+	padding-right: 10px;
+	color: #8F8F8F;
+}
+.xc-plus{
+	position: fixed;
+	bottom: 40px;
+	right: 30px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	background: #067CFF;
+	color: #fff;
+	border-radius: 50%;
+}
+
+/* 客服 */
+.service-head{
+	background: #292452;
+	overflow: hidden;
+}
+.service-head a{
+	color: #FFF;''
+}
+.mui-bar .service-tab-box{
+	width: 70%;
+}
+
+
+
+
+
+
+
+
+
